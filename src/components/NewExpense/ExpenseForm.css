@@ -1,0 +1,43 @@
+form{
+    width: 65%;
+    background-color: darkcyan;
+    border-radius: 20px;
+    margin: 10px;
+}
+.form_body{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.form_date{
+    padding: 5px;
+}
+.form_title{
+    padding: 5px;
+}
+.form_amount{
+    padding: 5px;
+}
+label{
+    display: block;
+    font-weight: 700;
+    margin: 5px;
+}
+input{
+    width: 330px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.form_button{
+    text-align: end;
+}
+.form_button button{
+    background-color: black;
+    color: cyan;
+    border: 2px solid cyan;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
